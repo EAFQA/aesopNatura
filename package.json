@@ -1,0 +1,15 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Projeto De Testes Natura",
+  "main": "index.js",
+  "author": "Eduardo Andrade Florencio",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.17.4"
+  },
+  "dependencies": {
+    "faker-br": "^0.4.1"
+  }
+}
