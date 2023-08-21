@@ -20,6 +20,7 @@ Cypress.Commands.add('createUserAosep', ()=> {
     cy.get('#acceptedterms').click()
     cy.contains('Criar Conta').click()
     cy.contains('Meus Pedidos').should('be.visible')
+    
 })
 
 Cypress.Commands.add('visitNatura', ()=> {
